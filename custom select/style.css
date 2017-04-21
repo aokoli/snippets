@@ -1,0 +1,48 @@
+/*Inspired by: https://bavotasan.com/2011/style-select-box-using-only-css/*/
+
+/*=============== DESIGN 1 ================ */
+
+.styled-select select {
+   background: transparent;
+   width: 100%;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+}
+
+.styled-select {
+ width: 50%;
+ height: 34px;
+ overflow: hidden;
+ background: url(down-arrow.png) no-repeat right #fff;
+ background-size: 20px 10px;
+ border-bottom: 1px solid #ccc;
+}
+
+
+
+/*=============== DESIGN 2 ================ */
+
+.styled-select2 select {
+  background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+}
+
+.styled-select2 {
+  width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: url(http://bavotasan.com/wp-content/uploads/2011/05/down_arrow_select.jpg) no-repeat right #ddd;
+   border: 1px solid #ccc;
+}
