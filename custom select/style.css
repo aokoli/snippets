@@ -4,7 +4,17 @@
 
 .styled-select select {
    background: transparent;
-   width: 100%;
+   /*
+   The extra 10% (in width:110%) is to remove the native drop down 
+   icon displayed on various browsers in order to display the custom
+   drop down. This is also the size of the option elements in the drop
+   down, so when the select element is clicked, the options below are
+   slightly extended (10% extra) relative to the visible select/drop down width.
+
+   The adjustment was needed for IE. But in other browsers, it appeared
+   fine without the 10%. 
+   */
+   width: 110%; 
    padding: 5px;
    font-size: 16px;
    line-height: 1;
